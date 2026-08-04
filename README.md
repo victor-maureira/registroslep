@@ -1,4 +1,4 @@
-# RegistroSlep 🏫
+# RegistroSlep 
 
 > **ES** | [EN below](#english-version)
 
@@ -114,9 +114,9 @@ La solución fue implementar **dos modos de mapeo**:
 El modo local falla en casos extremos — columnas muy abreviadas como `"Nom. Est."` o `"Cel."`. Se implementó un sistema de detección de calidad que evalúa el resultado del mapeo local y, si no cumple los criterios mínimos, llama automáticamente a la API sin intervención del usuario.
 
 La interfaz muestra un badge indicando cómo fue procesado cada archivo:
-- 🟢 Procesado en local
-- 🟡 Procesado con API (fallback)
-- 🔵 Procesado con API
+- Procesado en local
+- Procesado con API (fallback)
+- Procesado con API
 
 ### Excel como base de datos
 
@@ -160,7 +160,7 @@ MAPPING_MODE=local              # "local" o "api"
 
 ## English version
 
-### RegistroSlep 🏫
+### RegistroSlep 
 
 A web tool to automate guardian data registration for schools managed by the **SLEP** (Chile's Local Public Education Service).
 
